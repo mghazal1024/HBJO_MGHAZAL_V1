@@ -1,0 +1,92 @@
+@import 'variables';
+
+@media screen and (min-width: $tablet-break) {
+
+    /* General Styles -------*/
+    .icon {
+        height: 30px;
+    }
+
+    /* Typography -----------*/
+
+    p.bodyText {
+        font-size: 22px;
+        line-height: 30px;
+        padding-bottom: 28px;
+    }
+
+    h1 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    h2 {
+        font-size: 30px;
+        list-style: 40px;
+        padding-bottom: 40px;
+    }
+
+    h3 {
+        font-size: 25px;
+        line-height: 30px;
+        padding-bottom: 20px;
+    }
+
+    /* Links and Buttons -----------*/
+    
+    a {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    button {
+        padding: 0 30px;
+        height: 55px;
+        font-size: 18px;
+    }
+    .button--dark, .button--light {
+        &:before {
+            top: 10px;
+            left: 10px;
+        }
+    }
+    
+
+}
+
+
+
+
+
+
+@media screen and (min-width: $desktop-break) {
+
+
+    /* Typography -----------*/
+
+    h1 {
+        font-size: 67px;
+        line-height: 80px;
+    }
+
+    h2 {
+        font-size: 53px;
+        list-style: 64px;
+    }
+
+    /* Links and Buttons -----------*/
+
+    button {
+        padding: 0 40px;
+        height: 85px;
+        font-size: 25px;
+    }
+    .button--dark, .button--light {
+        &:before {
+            top: 20px;
+            left: 20px;
+        }
+    }
+    
+
+}
