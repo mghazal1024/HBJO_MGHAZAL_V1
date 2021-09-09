@@ -84,6 +84,7 @@ button {
   cursor: pointer;
   position: relative;
   z-index: 1;
+  transition: 200ms ease-in-out;
 }
 
 button:before {
@@ -94,6 +95,7 @@ button:before {
   left: 5px;
   position: absolute;
   z-index: -1;
+  transition: 200ms ease-in-out;
 }
 
 .button--dark {
@@ -105,6 +107,15 @@ button:before {
   border: 1px solid #596274;
 }
 
+.button--dark:hover {
+  background-color: white;
+  color: #596274;
+}
+
+.button--dark:hover:before {
+  border: 1px solid white;
+}
+
 .button--light {
   background-color: #EBE5E2;
   color: #596274;
@@ -112,6 +123,15 @@ button:before {
 
 .button--light:before {
   border: 1px solid #EBE5E2;
+}
+
+.button--light:hover {
+  background-color: #50596A;
+  color: #EBE5E2;
+}
+
+.button--light:hover:before {
+  border: 1px solid #50596A;
 }
 
 /* HEADER -------*/

@@ -84,6 +84,7 @@ button {
     cursor: pointer;
     position: relative;
     z-index: 1;
+    transition: 200ms ease-in-out;
     &:before {
         content: "";
         width: 100%;
@@ -92,6 +93,7 @@ button {
         left: 5px;
         position: absolute;
         z-index: -1;
+        transition: 200ms ease-in-out;
     }
 }
 .button--dark {
@@ -100,12 +102,26 @@ button {
     &:before {
         border: 1px solid $primary-color;
     }
+    &:hover {
+        background-color: white;
+        color: $primary-color;
+        &:before {
+            border: 1px solid white;
+        }
+    }
 }
 .button--light {
     background-color: $secondary-color;
     color: $primary-color;
     &:before {
         border: 1px solid $secondary-color;
+    }
+    &:hover {
+        background-color: $primary-color--dark;
+        color: $secondary-color;
+        &:before {
+            border: 1px solid $primary-color--dark;
+        }
     }
 }
 
