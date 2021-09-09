@@ -93,11 +93,8 @@
   .nos-marques {
     padding: 50px 40px;
   }
-  .nos-marques__list {
-    width: 2700px;
-  }
-  .nos-marques__list li {
-    width: 170px;
+  .nos-marques .main-carousel {
+    padding: 30px;
   }
   /* FOOTER -------*/
   footer {
@@ -186,9 +183,8 @@
   .nos-marques {
     padding: 70px 230px;
   }
-  .nos-marques__wrapper {
+  .nos-marques .main-carousel {
     padding: 70px;
-    max-width: 1460px;
   }
   /* FOOTER -------*/
   footer {

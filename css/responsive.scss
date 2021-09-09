@@ -126,11 +126,8 @@
 
     .nos-marques {
         padding: 50px 40px;
-        &__list {
-            width: 2700px;
-            li {
-                width: 170px;
-            }
+        .main-carousel {
+            padding: 30px;
         }
     }
 
@@ -249,9 +246,8 @@
 
     .nos-marques {
         padding: 70px 230px;
-        &__wrapper {
+        .main-carousel {
             padding: 70px;
-            max-width: 1460px;
         }
     }
 
