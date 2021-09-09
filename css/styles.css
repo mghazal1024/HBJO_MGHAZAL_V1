@@ -330,4 +330,38 @@ button:before {
 .product-hero--reversed .product-hero__image-img img {
   border-radius: 0 0 0 125px;
 }
+
+/* NOS MARQUES SECTION -------*/
+.nos-marques {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+  background-color: #596274;
+}
+
+.nos-marques__wrapper {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.nos-marques__list {
+  display: flex;
+  width: 2240px;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nos-marques__list li {
+  width: 150px;
+}
+
+.nos-marques__list li img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 /*# sourceMappingURL=styles.css.map */

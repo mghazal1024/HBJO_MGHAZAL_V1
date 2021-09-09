@@ -121,6 +121,18 @@
             }
         }
     }
+
+    /* NOS MARQUES SECTION -------*/
+
+    .nos-marques {
+        padding: 50px 40px;
+        &__list {
+            width: 2700px;
+            li {
+                width: 170px;
+            }
+        }
+    }
     
 
 }
@@ -220,6 +232,16 @@
                     order: 1;
                 }
             }
+        }
+    }
+
+    /* NOS MARQUES SECTION -------*/
+
+    .nos-marques {
+        padding: 70px 230px;
+        &__wrapper {
+            padding: 70px;
+            max-width: 1460px;
         }
     }
 

@@ -89,6 +89,16 @@
   .product-hero--reversed .product-hero__image-img img {
     border-radius: 0 0 0 225px;
   }
+  /* NOS MARQUES SECTION -------*/
+  .nos-marques {
+    padding: 50px 40px;
+  }
+  .nos-marques__list {
+    width: 2700px;
+  }
+  .nos-marques__list li {
+    width: 170px;
+  }
 }
 
 @media screen and (min-width: 1240px) {
@@ -163,6 +173,14 @@
   }
   .product-hero--reversed .product-hero__image {
     order: 1;
+  }
+  /* NOS MARQUES SECTION -------*/
+  .nos-marques {
+    padding: 70px 230px;
+  }
+  .nos-marques__wrapper {
+    padding: 70px;
+    max-width: 1460px;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
