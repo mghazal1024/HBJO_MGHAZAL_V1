@@ -373,6 +373,7 @@ footer {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    flex-wrap: wrap;
     div {
         width: 100%;
         margin-bottom: 40px;
