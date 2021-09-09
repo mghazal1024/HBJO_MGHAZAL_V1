@@ -75,6 +75,16 @@
             }
         }
     }
+
+    /* HERO SECTION -----------*/
+
+    .hero {
+        height: 70vh;
+        padding-bottom: 0 100px;
+        &__info {
+            padding-top: 100px;
+        }
+    }
     
 
 }
@@ -131,6 +141,21 @@
             width: 350px;
         }
     }
+
+    /* HERO SECTION -----------*/
     
+    .hero {
+        padding: 100px 150px;
+        height: 100vh;
+        &__info {
+            width: 50%;
+            h1 {
+                padding-bottom: 50px;
+            }
+        }
+        &__image {
+            top: 100px;
+        }
+    }
 
 }
