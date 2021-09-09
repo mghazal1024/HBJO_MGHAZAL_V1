@@ -133,6 +133,16 @@
             }
         }
     }
+
+    /* FOOTER -------*/
+
+    footer {
+        padding: 50px 40px;
+        div {
+            width: unset;
+            margin-bottom: 0;
+        }
+    }
     
 
 }
@@ -243,6 +253,12 @@
             padding: 70px;
             max-width: 1460px;
         }
+    }
+
+    /* FOOTER -------*/
+
+    footer {
+        padding: 70px 20%;
     }
 
 }

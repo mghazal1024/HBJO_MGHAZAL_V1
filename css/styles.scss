@@ -348,3 +348,25 @@ button {
         }
     }
 }
+
+
+/* FOOTER -------*/
+
+footer {
+    width: 100%;
+    background-color: $primary-color--dark;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    div {
+        width: 100%;
+        margin-bottom: 40px;
+        ul {
+            list-style: none;
+            li {
+                margin-bottom: 5px;
+            }
+        }
+    }
+}

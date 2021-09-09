@@ -99,6 +99,14 @@
   .nos-marques__list li {
     width: 170px;
   }
+  /* FOOTER -------*/
+  footer {
+    padding: 50px 40px;
+  }
+  footer div {
+    width: unset;
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (min-width: 1240px) {
@@ -181,6 +189,10 @@
   .nos-marques__wrapper {
     padding: 70px;
     max-width: 1460px;
+  }
+  /* FOOTER -------*/
+  footer {
+    padding: 70px 20%;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
